@@ -13,11 +13,11 @@ namespace Puzzle15
     {
         public PuzzleBlock()
         {
-            InitializePuzzleBlock()
+            InitializePuzzleBlock();
         }
         private void InitializePuzzleBlock()
         {
-            this.BackColor = Color.Orange;
+            this.BackColor = Color.Purple;
             this.Height = 80;
             this.Width = 80;
             this.Text = "0";

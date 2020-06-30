@@ -39,6 +39,11 @@ namespace Puzzle15
                     block.Top = row * 84;
                     block.Left = col * 84;
                     block.Text = blockCount.ToString();
+                    if(blockCount == 16)
+                    {
+                        block.Text = string.Empty;
+                        block.BackColor = Color.Gray;
+                    }
                     blockCount++;
                     this.Controls.Add(block);
                 }

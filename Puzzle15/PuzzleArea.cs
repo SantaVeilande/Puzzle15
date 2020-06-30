@@ -23,6 +23,7 @@ namespace Puzzle15
         {
             this.BackColor = Color.LightGreen;
             this.Text = "Puzzle 15";
+            this.Height = 500;
         }
 
         private void InitializeBlocks()
